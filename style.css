@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.nav-pills .nav-link.active {
+    background-color: grey;
+    color: honeydew;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+a {
+    color: honeydew;
+    background-color: transparent;
+    font-family: monospace;
+}
+
+.banner {
+    width: 100%;
+    min-height: 300px;
+    background-image: url(imagenes/rose.jpg);
+    background-size: contain;
+    color: #efd3d7;
+    background-position: center;
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+.main-cita {
+    background-color: transparent;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    width: 200vh;
+    height: auto;
+    background-size: contain;
+    margin-right: 10px;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.cita {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: start;
+}
+
+.quote-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagen-presentacion {
+    background-image: url(/imagenes/birds.jpg);
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-repeat: repeat-x;
+    font-family: 'IM Fell English', serif;
+    opacity: 0.5;
+}
